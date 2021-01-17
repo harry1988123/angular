@@ -1,0 +1,23 @@
+<div class = "usersClass" *ngFor="let item of items"> 
+    <mat-card class="example-card">
+        <mat-card-header>
+        <div mat-card-avatar class="example-header-image" style="background-image: url('{{item['Profile Image']}}');"></div>
+        <mat-card-title>{{item.Name}}</mat-card-title>
+        <!-- <mat-card-subtitle>Dog Breed</mat-card-subtitle> -->
+        <span class="material-icons">emoji_events</span><div>{{item.Bet}}</div>
+        <span class="material-icons">brightness_low </span><div>{{item.Price}}</div>
+        <span class="material-icons">radio_button_checked</span>
+        </mat-card-header>
+        <!-- <img mat-card-image src="https://s3-ap-southeast-1.amazonaws.com/he-public-data/rodrick14c9291.jpg" class = "img-rounded" alt= {{item.Name}} > -->
+        <mat-card-content>
+        <p>
+             
+        </p>
+        </mat-card-content>
+        <mat-card-actions>
+        <!-- <button mat-button>LIKE</button>
+        <button mat-button>SHARE</button> -->
+        </mat-card-actions>
+    </mat-card>
+  </div>
+  
